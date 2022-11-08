@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    margin-top: 8vh;
+    display: grid;
+    background-color: #fafafa;
+    min-height: 100vh;
+}
+
+.top {
+    display: grid;
+}
+
+header {
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    width: 278px;
+}
+
+.who-we-are {
+    flex-direction: column;
+}
+
+.team {
+    display: grid;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    height: 27px;
+    width: 117px;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+
+.description {
+    height: 87px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    
+}
+
+.name {
+    height: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-top: 1vh;
+}
+
+.function {
+    position: relative;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    writing-mode: vertical-lr;
+    left: -px;
+    height: 102px;
+}
+
+.resume {
+    display: flex;
+    flex-direction: column;
+}
+
+.photo-function {
+    display: flex;
+    align-items: flex-start;
+}
+
+footer {
+    text-align: center;
+    left: 0px;
+    right: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #bdbdbd;
+    border-top: 1px;
+    bottom: 0px;
+    width: 100%;
+    padding-bottom: 5px;
+    position: fixed;
+}

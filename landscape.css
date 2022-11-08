@@ -1,0 +1,35 @@
+body {
+    margin: 18vw;
+}
+
+.top {
+    width: 65vw;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    gap: 15vw;
+    margin-bottom: 96px;
+}
+
+.description {
+    font-size: 18px;
+}
+
+.function {
+    font-size: 12px;
+}
+
+.who-we-are {
+    width: 439px;
+    
+}
+
+.team {
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 65vw;
+    justify-content: center;
+    gap: 80px;
+}
+
+.photo-lanscape-middle {
+    margin-top: 6.65vh;
+}

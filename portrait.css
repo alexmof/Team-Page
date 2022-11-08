@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    justify-content: space-between;
+}
+
+.top {
+    margin-left: 3.20vw;
+    flex-direction: column;
+}
+
+header {
+    width: 74vw;
+}
+
+.who-we-are {
+    margin-top: 38px;
+}
+
+.description {
+    width: 333px;
+    font-size: 14px;
+}
+
+.who-we-are {
+    flex-direction: column;
+
+}
+
+.team {
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+    margin-left: 5vw;
+    margin-right: 3vw;
+    margin-bottom: 15px;
+    gap: 1.47vw;
+}
+
+.function {
+    font-size: 10px;
+    margin-right: 0px;
+    margin-left: 6.28px;
+}
+
+.photo-portrait-right {
+    margin-top: 6.65vh;
+}
